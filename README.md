@@ -5,7 +5,7 @@ Este foi um projeto bem desafiador colocando a prova todos os novos conhecimento
 
 <a href="https://munhozrufino.github.io/projeto-site-awax/" target="_blank" >Clique aqui para ter acesso ao site!</a>
 
-<img src="imagens/doctor.png" alt="doctor">
+<img src="assets/images/work.png" alt="doctor">
 
 “Medir o progresso da programação por linhas de código é como medir o progresso da construção de aeronaves em termos de peso.”
 Bill Gates
