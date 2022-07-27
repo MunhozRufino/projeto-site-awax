@@ -8,6 +8,22 @@
     <link rel="shortcut icon" href="./assets/images/icons8-coroa-48.png" type="image/x-icon">
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Projeto</title>
+
+    <script>
+
+        function clickArea() {
+            let clickArea = document.getElementById('menu-clic');
+
+            if(clickArea.style.display =='block') {
+                clickArea.style.display ='none'
+            } else {
+                clickArea.style.display ='block';
+            } 
+        }
+
+
+    </script>
+
 </head>
 <body>
 
@@ -16,9 +32,11 @@
             <div class="logo">
                 <div><img class="logocoroa" src="assets/images/coroa (2).png" alt="logo"></div>
             </div>
-            <div class="menu">
-                <img class="menu-opener" src="assets/images/menu.png" alt="">
-                <nav>
+            <div  class="menu" >
+                <div onclick="clickArea()">
+                    <img class="menu-opener" src="assets/images/menu.png" alt="">
+                </div>
+                <nav id="menu-clic" onmouseleave="clickArea()">
                     <ul>
                         <li class="active"><a href="#">Home</a></li>
                         <li><a href="#">About Us</a></li>
@@ -612,5 +630,6 @@
             </div>
         </div>
     </footer>
+
 </body>
 </html>

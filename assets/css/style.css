@@ -929,7 +929,8 @@ footer {
     outline: 0;
 }
 
-@media (min-width:451px) and (max-width:800px) {
+@media (min-width:500px) and (max-width:990px) { /* Media query tablet*/
+    
     .logo {
         margin-left: 30px;
     }
@@ -1058,7 +1059,7 @@ footer {
     }
 }
 
-@media (max-width:500px) {
+@media (max-width:00px) { /* Media query mobile*/
 
     .logo {
         margin-left: 30px;
