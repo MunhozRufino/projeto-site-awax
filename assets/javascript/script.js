@@ -1,11 +1,9 @@
 function clickArea() {
-    let clickArea = document.getElementById('menu');
+    let clickArea = document.getElementById('menu-clic');
 
-        if(clickArea.style.display =='none') {
-            clickArea.style.display ='block'
-        } else {
-            clickArea.style.display ='none';
-        }
-
-
+    if(clickArea.style.display =='block') {
+        clickArea.style.display ='none'
+    } else {
+        clickArea.style.display ='block';
+    } 
 }
